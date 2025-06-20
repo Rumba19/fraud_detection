@@ -49,7 +49,7 @@ Or Manually install the key packages:
 pip install pandas numpy matplotlib seaborn scikit-learn pyod
 ```
 
-# How to Run#
+# How to Run
 1. Clone the repository
 ```bash
 git clone https://github.com/Rumba19/fraud_detection 
@@ -57,8 +57,8 @@ cd fraud-detection-autoencoder
 ```
 
 2. Place the dataset
-- Ensure creditcard.csv is present in the project root.
-- You can use either the full dataset or the one inside fraud_detection.zip (unzip first).
+- Ensure `creditcard.csv` is present in the project root.
+- You can use either the full dataset or the one inside `fraud_detection.zip` (unzip first).
 
 3. Run the model:
 ```bash
