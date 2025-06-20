@@ -29,27 +29,31 @@ Alternatively, for testing:
 Make sure you have Python 3.7 or later.
 
 Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
 
---- Or Manually install the key packages:
-    ```bash
-    pip install pandas numpy matplotlib seaborn scikit-learn pyod
+```bash
+pip install -r requirements.txt
+```
 
+Or Manually install the key packages:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn pyod
+```
 
 #How to Run#
 1. Clone the repository
-  ```bash
-    git clone https://github.com/Rumba19/fraud_detection
-    cd fraud-detection-autoencoder
+```bash
+git clone https://github.com/Rumba19/fraud_detection 
+cd fraud-detection-autoencoder
+```
 
 2. Place the dataset
 - Ensure creditcard.csv is present in the project root.
 - You can use either the full dataset or the one inside fraud_detection.zip (unzip first).
 
 3. Run the model:
-    ```bash
-        python fraud_autoencoder.py
+```bash
+python fraud_autoencoder.py
+```
 
 4. Expected OutComes
 ![Model Output](image.png)
