@@ -15,6 +15,26 @@ The dataset used is the **Credit Card Fraud Detection Dataset** from Kaggle.
   👉 [https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
 - Extract the `creditcard.csv` file into the root project folder.
+---
+
+## 🔒 Handling `kaggle.json` Securely
+
+To use the Kaggle API to download the dataset, you need a `kaggle.json` API key. However, **do not upload this file to GitHub** — it contains sensitive credentials.
+
+### ✅ Steps to Use Securely:
+
+1. **Download your API token** from [Kaggle → Account Settings](https://www.kaggle.com/account)
+2. Save it as `kaggle.json` in your project folder or in the location below:
+
+   - Linux/macOS: `~/.kaggle/kaggle.json`
+   - Windows: `%USERPROFILE%\.kaggle\kaggle.json`
+
+3. Add `kaggle.json` to `.gitignore` to prevent it from being committed:
+
+```bash
+   echo kaggle.json >> .gitignore
+```
+
 
 Alternatively, for testing:
 - Download the pre-packaged zipped test file here:
