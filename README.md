@@ -26,10 +26,20 @@ Alternatively, for testing:
 
 ### ✅ Requirements
 
-Make sure you have Python 3.7 or later.
+ Note: This project is tested on Python 3.9. Please ensure Python 3.9 is installed before proceeding.
+## 🔒 Create and activate a virtual environment:
 
-Install the required libraries:
-
+### On Windows:
+```bash
+python3.9 -m venv venv
+venv\Scripts\activate
+```
+### On macOS/Linux:
+```bash
+python3.9 -m venv venv
+source venv/bin/activate
+```
+### 📦 Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
