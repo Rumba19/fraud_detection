@@ -28,18 +28,17 @@ Alternatively, for testing:
 
 Make sure you have Python 3.7 or later.
 
-Install the required libraries:
-```bash
-pip install -r requirements.txt
+    Install the required libraries:
+    ```bash
+    pip install -r requirements.txt
 
-#Or Manually install the key packages#
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn pyod
+Or Manually install the key packages:
+    ```bash
+    pip install pandas numpy matplotlib seaborn scikit-learn pyod
 
 
-###How to Run ###
-
-    1. Clone the repository
+#How to Run#
+1. Clone the repository
     ```bash
         git clone https://github.com/your-username/fraud-detection-autoencoder.git
         cd fraud-detection-autoencoder
